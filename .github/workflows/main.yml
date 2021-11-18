@@ -19,6 +19,6 @@ jobs:
       - name: Install Surge
         run: npm install -g surge
       - name: Run surge
-        run: surge ./build grubby-silver.surge.sh --token ${{ secrets.SURGETOKEN }}
+        run: surge ./ grubby-silver.surge.sh --token ${{ secrets.SURGETOKEN }}
 
           
